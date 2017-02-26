@@ -11,6 +11,18 @@ Summary: A quick unittest-compatible framework for repeating a test function ove
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/repeated_test-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/repeated_test-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/repeated_test-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/repeated_test-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/repeated_test-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/repeated-test-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/repeated_test/badges/version.svg)](https://anaconda.org/conda-forge/repeated_test)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/repeated_test/badges/downloads.svg)](https://anaconda.org/conda-forge/repeated_test)
+
 Installing repeated_test
 ========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `repeated_test` available on your 
 ```
 conda search repeated_test --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/repeated_test-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/repeated_test-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/repeated_test-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/repeated_test-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/repeated_test-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/repeated-test-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/repeated_test/badges/version.svg)](https://anaconda.org/conda-forge/repeated_test)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/repeated_test/badges/downloads.svg)](https://anaconda.org/conda-forge/repeated_test)
 
 
 Updating repeated_test-feedstock
