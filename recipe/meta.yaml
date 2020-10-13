@@ -13,17 +13,13 @@ source:
 
 build:
   number: 1002
-  script: python -m pip install . --no-deps -vv
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
     - python
-    - pip
     - setuptools
 
-  host:
-    - pip
-  
   run:
     - python
     - six >=1.7
