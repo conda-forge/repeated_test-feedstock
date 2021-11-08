@@ -30,7 +30,7 @@ test:
     - repeated_test.tests
 
   requires:
-    - unittest2  # [py26]
+    - unittest2  # [py==26]
 
 about:
   home: https://github.com/epsy/repeated_test
