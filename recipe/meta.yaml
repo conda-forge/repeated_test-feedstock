@@ -1,36 +1,36 @@
 {% set name = "repeated_test" %}
 {% set version = "1.0.1" %}
-{% set sha256 = "65107444a4945668ab7be6d1a3e1814cee9b2cfc577e7c70381700b11b809d27" %}
+
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/repeated_test-{{ version }}.tar.gz
+  sha256: 65107444a4945668ab7be6d1a3e1814cee9b2cfc577e7c70381700b11b809d27
 
 build:
   number: 1004
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
-    - setuptools
-
+    - pip
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
     - six >=1.7
 
 test:
   imports:
     - repeated_test
     - repeated_test.tests
-
+  commands:
+    - pip check
   requires:
-    - unittest2  # [py==26]
+    - pip
 
 about:
   home: https://github.com/epsy/repeated_test
