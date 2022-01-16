@@ -1,5 +1,5 @@
 {% set name = "repeated_test" %}
-{% set version = "1.0.1" %}
+{% set version = "2.0.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/repeated_test-{{ version }}.tar.gz
-  sha256: 65107444a4945668ab7be6d1a3e1814cee9b2cfc577e7c70381700b11b809d27
+  sha256: cb1756560068de64e8dd449bc6dd5b48cd3a06deba242362bb66e21ae6c89bb6
 
 build:
-  number: 1004
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -37,7 +37,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'A quick unittest-compatible framework for repeating a test function over many fixtures'
+  summary: A quick unittest-compatible framework for repeating a test function over many fixtures
   dev_url: https://github.com/epsy/repeated_test
 
 extra:
