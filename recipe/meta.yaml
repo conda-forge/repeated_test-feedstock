@@ -1,5 +1,5 @@
 {% set name = "repeated_test" %}
-{% set version = "2.0.0" %}
+{% set version = "2.1.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/repeated_test-{{ version }}.tar.gz
-  sha256: cb1756560068de64e8dd449bc6dd5b48cd3a06deba242362bb66e21ae6c89bb6
+  sha256: c5aab87994a4c9b9aaa69af4b74c07090959e277556450e672ae5b6c279fd4ea
 
 build:
   number: 0
