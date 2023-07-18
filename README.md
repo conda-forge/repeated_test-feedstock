@@ -1,11 +1,11 @@
-About repeated_test
-===================
+About repeated_test-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/repeated_test-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/epsy/repeated_test
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/repeated_test-feedstock/blob/main/LICENSE.txt)
 
 Summary: A quick unittest-compatible framework for repeating a test function over many fixtures
 
